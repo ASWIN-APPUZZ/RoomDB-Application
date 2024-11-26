@@ -23,7 +23,7 @@
         android:layout_height="wrap_content"
         android:text="@string/update_user"
         android:textSize="20sp"
-        android:fontFamily="serif-monospace"
+        android:fontFamily="@font/sulphur_point_bold"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -42,6 +42,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/sulphur_point_regular"
             android:text="@string/name"/>
 
         <Space
@@ -53,6 +54,7 @@
             android:layout_height="wrap_content"
             android:autofillHints="Name"
             android:inputType="text"
+            android:fontFamily="@font/sulphur_point_regular"
             android:hint="@string/enter_name"
             android:id="@+id/etUpdateName"
             android:background="@drawable/box_outline"/>
@@ -63,6 +65,7 @@
 
         <TextView
             android:layout_width="match_parent"
+            android:fontFamily="@font/sulphur_point_regular"
             android:layout_height="wrap_content"
             android:text="@string/email"/>
 
@@ -76,6 +79,7 @@
             android:autofillHints="Name"
             android:inputType="textEmailAddress"
             android:hint="@string/enter_email"
+            android:fontFamily="@font/sulphur_point_regular"
             android:id="@+id/etUpdateEmail"
             android:background="@drawable/box_outline"/>
 
@@ -85,6 +89,7 @@
 
         <TextView
             android:layout_width="match_parent"
+            android:fontFamily="@font/sulphur_point_regular"
             android:layout_height="wrap_content"
             android:text="@string/age"/>
 
@@ -97,6 +102,7 @@
             android:layout_height="wrap_content"
             android:autofillHints="Name"
             android:inputType="number"
+            android:fontFamily="@font/sulphur_point_regular"
             android:hint="@string/enter_age"
             android:id="@+id/etUpdateAge"
             android:background="@drawable/box_outline"/>
@@ -113,9 +119,6 @@
             android:background="@drawable/box_outline"
             android:text="@string/update_user"
             android:textAllCaps="false"
-            android:fontFamily="serif-monospace"/>
-
-
+            android:fontFamily="@font/sulphur_point_regular"/>
     </LinearLayout>
-
 </androidx.constraintlayout.widget.ConstraintLayout>

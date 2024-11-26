@@ -11,6 +11,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/user_id"
+        android:fontFamily="@font/sulphur_point_regular"
         android:textSize="21sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -21,6 +22,7 @@
         android:layout_height="wrap_content"
         android:text="@string/_1"
         android:textSize="21sp"
+        android:fontFamily="@font/sulphur_point_regular"
         app:layout_constraintStart_toEndOf="@id/userIdText"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -31,15 +33,16 @@
         android:text="@string/john_doe"
         android:textSize="21sp"
         android:layout_marginTop="8dp"
+        android:fontFamily="@font/sulphur_point_regular"
         app:layout_constraintTop_toBottomOf="@id/userId"
         app:layout_constraintStart_toStartOf="@+id/userId" />
-
 
     <TextView
         android:id="@+id/tvAge"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/_1"
+        android:fontFamily="@font/sulphur_point_regular"
         android:textSize="18sp"
         android:layout_marginStart="15dp"
         app:layout_constraintTop_toTopOf="@id/tvName"
@@ -51,7 +54,7 @@
         android:id="@+id/tvEmail"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:fontFamily="sans-serif-condensed"
+        android:fontFamily="@font/poiret_one_regular"
         android:text="@string/johndoe_xyz_com"
         android:textSize="14sp"
         android:layout_marginTop="12dp"
@@ -68,6 +71,4 @@
         app:layout_constraintTop_toTopOf="@+id/userId"
         app:layout_constraintBottom_toBottomOf="@+id/tvEmail"
         app:layout_constraintEnd_toEndOf="parent" />
-
-
 </androidx.constraintlayout.widget.ConstraintLayout>

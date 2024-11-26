@@ -19,7 +19,6 @@ class UserListFragment : Fragment(R.layout.fragment_user_list) {
 
     private lateinit var recyclerView: RecyclerView
     private lateinit var adapter: UserListAdapter
-    private val args : UpdateUserFragmentArgs by navArgs<UpdateUserFragmentArgs>()
 
     private lateinit var viewModel: UserViewModel
 

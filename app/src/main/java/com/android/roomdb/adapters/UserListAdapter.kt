@@ -54,7 +54,7 @@ class UserListAdapter(
                 btnDelete.setOnClickListener {
                     val builder: AlertDialog.Builder = AlertDialog.Builder(it.context)
                     builder.setTitle("Delete User?")
-                        .setMessage("Are you sure you want to delete this user?")
+                        .setMessage("Are you sure you want to delete ${tvName.text}?")
                         .setPositiveButton("Yes") { _, _ ->
                             onDeleteClickManager.invoke(user)
                         }

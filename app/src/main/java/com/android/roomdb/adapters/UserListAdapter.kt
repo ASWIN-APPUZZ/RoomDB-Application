@@ -72,6 +72,5 @@ class UserListAdapter(
     fun setData(user: List<UserModel>) {
         this.userList = user
         notifyDataSetChanged()
-
     }
 }
